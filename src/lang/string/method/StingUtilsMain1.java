@@ -5,7 +5,7 @@ public class StingUtilsMain1 {
         int num = 100;
         boolean bool = true;
         Object obj = new Object();
-        String str = "Hello, Java";
+        String str = "Hello, Java!";
 
         String numString = String.valueOf(num);
         System.out.println("numString = " + numString);
@@ -15,5 +15,8 @@ public class StingUtilsMain1 {
             System.out.println("c = " + c);
 
         }
+
+        boolean b = str.matches("Hello, (Java!|World!)");
+        System.out.println("b = " + b);
     }
 }
