@@ -20,6 +20,7 @@ public class LocalOuterV3 {
 
             Printer printer = new LocalPrinter();
             printer.print();
+            //test
         }
 
     public static void main(String[] args) {
