@@ -18,6 +18,7 @@ public class ShoppingCart {
         }
         System.out.println("전체 가격 합:" + calculateTotalPrice());
         System.out.println("hashSet");
+        System.out.println("map");
     }
 
     private int calculateTotalPrice() {
