@@ -1,4 +1,4 @@
-package exception.basic.checked;
+package exception.basic;
 
 public class Service {
     Client client = new Client();
@@ -7,9 +7,9 @@ public class Service {
         try {
             client.call();
         }catch (MyCheckedException e){
-            System.out.println("예외 처리, message=" + e.getMessage());
+            System.out.println(STR."예외처리 =\{e.getMessage()}");
         }
-        System.out.println("정상 흐름");
+        System.out.println("정상흐름");
     }
 
     public void callThrow() throws MyCheckedException{
