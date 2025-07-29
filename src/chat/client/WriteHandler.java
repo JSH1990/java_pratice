@@ -1,7 +1,5 @@
 package chat.client;
 
-import exception.basic.Client;
-
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.util.Scanner;
